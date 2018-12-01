@@ -12,10 +12,10 @@ be useful to you if:
 Clone the repository:
 ```sh
 # Using HTTPS
-git clone --depth=1 https://github.com/devmattrick/canvas-starter.git
+git clone --depth=1 https://github.com/devmattrick/canvas-starter.git <name>
 
 # Or using SSH
-git clone --depth=1 git@github.com:devmattrick/canvas-starter.git
+git clone --depth=1 git@github.com:devmattrick/canvas-starter.git <name>
 ```
 
 Install dependencies:
