@@ -1,0 +1,37 @@
+{
+  "name": "canvas-starter",
+  "version": "1.0.0",
+  "description": "Simple template for single page canvas projects.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server",
+    "build": "cross-env NODE_ENV=production webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devmattrick/canvas-starter.git"
+  },
+  "keywords": [
+    "canvas",
+    "html5",
+    "starter",
+    "project",
+    "webpack",
+    "typescript"
+  ],
+  "author": "Matthew McCune <contact@matthew.cx>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devmattrick/canvas-starter/issues"
+  },
+  "homepage": "https://github.com/devmattrick/canvas-starter#readme",
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^5.3.1",
+    "typescript": "^3.2.1",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
