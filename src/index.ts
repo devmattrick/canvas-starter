@@ -11,5 +11,5 @@ function resize() {
   canvas.height = canvas.clientHeight;
 }
 
-canvas.parentElement.addEventListener('resize', resize);
+window.addEventListener('resize', resize);
 resize();
